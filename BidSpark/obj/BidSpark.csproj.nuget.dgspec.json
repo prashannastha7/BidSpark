@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "A:\\Auction App\\BidSpark\\BidSpark\\BidSpark.csproj": {}
+    "A:\\BidSpark\\BidSpark\\BidSpark.csproj": {}
   },
   "projects": {
-    "A:\\Auction App\\BidSpark\\BidSpark\\BidSpark.csproj": {
+    "A:\\BidSpark\\BidSpark\\BidSpark.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\Auction App\\BidSpark\\BidSpark\\BidSpark.csproj",
+        "projectUniqueName": "A:\\BidSpark\\BidSpark\\BidSpark.csproj",
         "projectName": "BidSpark",
-        "projectPath": "A:\\Auction App\\BidSpark\\BidSpark\\BidSpark.csproj",
+        "projectPath": "A:\\BidSpark\\BidSpark\\BidSpark.csproj",
         "packagesPath": "C:\\Users\\LEGION\\.nuget\\packages\\",
-        "outputPath": "A:\\Auction App\\BidSpark\\BidSpark\\obj\\",
+        "outputPath": "A:\\BidSpark\\BidSpark\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LEGION\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -66,6 +66,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
