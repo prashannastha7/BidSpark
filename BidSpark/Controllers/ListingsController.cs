@@ -30,23 +30,21 @@ namespace BidSpark.Controllers
         }
 
         //        GET: Listings/Details/5
-        //        public async Task<IActionResult> Details(int? id)
-        //        {
-        //            if (id == null)
-        //            {
-        //                return NotFound();
-        //            }
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
 
-        //            var listing = await _context.Listings
-        //                .Include(l => l.IdentityUser)
-        //                .FirstOrDefaultAsync(m => m.Id == id);
-        //            if (listing == null)
-        //            {
-        //                return NotFound();
-        //            } 
+            var listing = await _listingService.GetById(id);
+            if (listing == null)
+            {
+                return NotFound();
+            }
 
-        //            return View(listing);
-        //        }
+            return View(listing);
+        }
 
         // GET: Listings/Create
         public IActionResult Create()
